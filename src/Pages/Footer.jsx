@@ -11,7 +11,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:underline"
             >
-                &copy;  Tamjid Bond
+                &copy;Tamjid Bond
             </Link>
         </div>
     );
