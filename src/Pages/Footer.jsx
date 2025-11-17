@@ -13,7 +13,7 @@ const Footer = () => {
                 &copy;MD. Tamjid Bond
             </a>
         </footer>
-    );
+    )
 };
 
 export default Footer;

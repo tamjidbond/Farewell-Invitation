@@ -65,7 +65,7 @@ const SRM = () => {
             </p>
 
             <p className="mb-4 opacity-90 text-gray-300">
-              It is our great pleasure to invite you to the Class Party of <span className="font-semibold text-teal-400">{batchName}</span>. The event is organized to celebrate our journey and achievements.
+              It is our great pleasure to invite you to the Farewell Ceremony  of <span className="font-semibold text-teal-400">{batchName}</span>. The event is organized to celebrate our journey and achievements.
             </p>
 
             <p className="mb-4 opacity-90 text-gray-300">
