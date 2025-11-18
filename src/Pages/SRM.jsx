@@ -85,21 +85,15 @@ const SRM = () => {
             <p className="mt-6 font-semibold text-pink-400">
               Warm Regards,<br />IAW2501
             </p>
+            <p className="mt-6 text-right text-xs opacity-40 text-gray-300">
+              <a href="https://tamjidbond-portfolio.netlify.app/">
+                © MD. Tamjid Bond
+              </a>
+            </p>
           </div>
         </motion.div>
       </main>
 
-      <footer className="absolute bottom-6 sm:bottom-10 w-full text-center text-sm sm:text-base opacity-70">
-
-            <a
-                href="https://tamjidbond-portfolio.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-400 hover:underline"
-            >
-                &copy;MD. Tamjid Bond
-            </a>
-        </footer>
     </div>
   );
 };

@@ -36,7 +36,7 @@ const Web = () => {
               gravity={0.08}
               wind={0.002}
               friction={0.99}
-              colors={["#ffffff","#ffdddd","#ff0000","#ff4d4d","#0000ff","#00ff00","#ffff00","#ffa500","#800080","#00ffff","#ffc0cb","#808080","#8b4513","#008000","#000080","#ff69b4","#f0e68c","#4b0082","#ffd700","#40e0d0"]}
+              colors={["#ffffff", "#ffdddd", "#ff0000", "#ff4d4d", "#0000ff", "#00ff00", "#ffff00", "#ffa500", "#800080", "#00ffff", "#ffc0cb", "#808080", "#8b4513", "#008000", "#000080", "#ff69b4", "#f0e68c", "#4b0082", "#ffd700", "#40e0d0"]}
               recycle={true}
             />
           </motion.div>
@@ -85,21 +85,16 @@ const Web = () => {
             <p className="mt-6 font-semibold text-pink-400">
               Warm Regards,<br />IAW2501
             </p>
+            <p className="mt-6 text-right text-xs opacity-40 text-gray-300">
+              <a href="https://tamjidbond-portfolio.netlify.app/">
+                © MD. Tamjid Bond
+              </a>
+            </p>
           </div>
         </motion.div>
       </main>
 
-      <footer className="absolute bottom-6 sm:bottom-10 w-full text-center text-sm sm:text-base opacity-70">
 
-            <a
-                href="https://tamjidbond-portfolio.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-400 hover:underline"
-            >
-                &copy;MD. Tamjid Bond
-            </a>
-        </footer>
     </div>
   );
 };
