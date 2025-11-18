@@ -17,7 +17,17 @@ const SeeYouSoon = () => {
                 See you soon at the event....
             </h1>
 
-            <Footer></Footer>
+            <footer className="absolute bottom-6 sm:bottom-10 w-full text-center text-sm sm:text-base opacity-70">
+
+                <a
+                    href="https://tamjidbond-portfolio.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-400 hover:underline"
+                >
+                    &copy;MD. Tamjid Bond
+                </a>
+            </footer>
 
         </div>
     );

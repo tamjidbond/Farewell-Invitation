@@ -61,7 +61,7 @@ const CPD = () => {
           <div className="text-left leading-relaxed text-base sm:text-lg px-2 sm:px-4">
 
             <p className="text-pink-400 text-lg sm:text-xl font-semibold mb-4">
-              Dear Sir,
+              Dear Sazzad Hossain Sir,
             </p>
 
             <p className="mb-4 opacity-90 text-gray-300">
@@ -89,7 +89,17 @@ const CPD = () => {
         </motion.div>
       </main>
 
-      <Footer></Footer>
+      <footer className="absolute bottom-6 sm:bottom-10 w-full text-center text-sm sm:text-base opacity-70">
+
+            <a
+                href="https://tamjidbond-portfolio.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:underline"
+            >
+                &copy;MD. Tamjid Bond
+            </a>
+        </footer>
     </div>
   );
 };
