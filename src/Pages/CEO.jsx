@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Confetti from "react-confetti";
 import { motion, AnimatePresence } from "framer-motion";
+import Footer from "./Footer";
+
 
 const CEO = () => {
   const [showConfetti, setShowConfetti] = useState(true);
@@ -28,19 +30,14 @@ const CEO = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 3 }}
-            className="absolute inset-0 pointer-events-none -z-10"
+            className="absolute inset-0"
           >
             <Confetti
               numberOfPieces={300}
               gravity={0.08}
               wind={0.002}
               friction={0.99}
-              colors={[
-                "#ffffff", "#ffdddd", "#ff0000", "#ff4d4d", "#0000ff", "#00ff00",
-                "#ffff00", "#ffa500", "#800080", "#00ffff", "#ffc0cb", "#808080",
-                "#8b4513", "#008000", "#000080", "#ff69b4", "#f0e68c",
-                "#4b0082", "#ffd700", "#40e0d0"
-              ]}
+              colors={["#ffffff", "#ffdddd", "#ff0000", "#ff4d4d", "#0000ff", "#00ff00", "#ffff00", "#ffa500", "#800080", "#00ffff", "#ffc0cb", "#808080", "#8b4513", "#008000", "#000080", "#ff69b4", "#f0e68c", "#4b0082", "#ffd700", "#40e0d0"]}
               recycle={true}
             />
           </motion.div>
@@ -69,9 +66,7 @@ const CEO = () => {
             </p>
 
             <p className="mb-4 opacity-90 text-gray-300">
-              It is our great pleasure to invite you to the Farewell Ceremony of{" "}
-              <span className="font-semibold text-teal-400">{batchName}</span>. 
-              The event is organized to celebrate our journey and achievements.
+              It is our great pleasure to invite you to the Farewell Ceremony of <span className="font-semibold text-teal-400">{batchName}</span>. The event is organized to celebrate our journey and achievements.
             </p>
 
             <p className="mb-4 opacity-90 text-gray-300">
@@ -91,17 +86,16 @@ const CEO = () => {
             <p className="mt-6 font-semibold text-pink-400">
               Warm Regards,<br />IAW2501
             </p>
-
-            {/* Bottom-right subtle copyright */}
             <p className="mt-6 text-right text-xs opacity-40 text-gray-300">
               <a href="https://tamjidbond-portfolio.netlify.app/">
                 © MD. Tamjid Bond
               </a>
             </p>
-
           </div>
         </motion.div>
       </main>
+
+
     </div>
   );
 };
